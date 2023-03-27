@@ -2,7 +2,7 @@
 
 ## Lingkungan - CO2 Emission
 
-CO2/Carbon emissions atau emisi karbon merupakan proses karbon dioksida ke atmosfer yang terjadi secara alami maupun dipicu aktivitas manusia, seperti deforestasi, konsumsi listrik, hingga kegiatan industri manufaktur. Jenis senyawa ini adalah salah satu hasil dari pembakaran yang perlu dibuang. Gas buang berupa karbondioksida ini merupakan emisi yang kebanyakan saat ini dihasilkan kendaraan yang perlu diujikan dalam proses uji emisi. Emissi C02 ini sangat berpengaruh terhadap percepatan pemanasan global.
+CO2/Carbon *emissions* atau emisi karbon merupakan proses karbon dioksida ke atmosfer yang terjadi secara alami maupun dipicu aktivitas manusia, seperti deforestasi, konsumsi listrik, hingga kegiatan industri manufaktur. Jenis senyawa ini adalah salah satu hasil dari pembakaran yang perlu dibuang. Gas buang berupa karbondioksida ini merupakan emisi yang kebanyakan saat ini dihasilkan kendaraan yang perlu diujikan dalam proses uji emisi. Emisi C02 ini sangat berpengaruh terhadap percepatan pemanasan global.
 
 - Mengapa dan bagaimana masalah ini harus diselesaikan?
   
@@ -10,19 +10,19 @@ CO2/Carbon emissions atau emisi karbon merupakan proses karbon dioksida ke atmos
 
 ## Business Understanding
 
-CO2 Emission atau emisi karbon merupakan proses pelepasan karbon ke atmosfer. Jenis senyawa karbon merupakan hasil pembakaran yang perlu dibuang. Pada saat ini kebanyak penghasil emisi karbon merupakan kendaraan sehari-hari yang menghasilkan karbon dari pembakaran bahan bakar yang dilepaskan begitu saja ke atmosfer bumi. Bayangkan berapa banyak karbon yang dilepaskan dalam sehari oleh kendaraan. Kendaraan roda 4 menghasilkan rata-rata 200g/km karbon CO2. Itu dalam hitungan km, bagaimana dengan penggunaan kendaraan roda 4 dalam sehari? ditambah seluruh penduduk bumi sekarang tidak terlepas dari kendaraan. Oleh karena itu dibuatlah sistem untuk memprediksi penghasilan karbon CO2 untuk mengukur berapa banyak kendaraan roda 4 mengeluarkan karbon dalam hitungan g/km.
+CO2 *Emission* atau emisi karbon merupakan proses pelepasan karbon ke atmosfer. Jenis senyawa karbon merupakan hasil pembakaran yang perlu dibuang. Pada saat ini kebanyak penghasil emisi karbon merupakan kendaraan sehari-hari yang menghasilkan karbon dari pembakaran bahan bakar yang dilepaskan begitu saja ke atmosfer bumi. Bayangkan berapa banyak karbon yang dilepaskan dalam sehari oleh kendaraan. Kendaraan roda 4 menghasilkan rata-rata 200g/km karbon CO2. Itu dalam hitungan km, bagaimana dengan penggunaan kendaraan roda 4 dalam sehari? ditambah seluruh penduduk bumi sekarang tidak terlepas dari kendaraan. Oleh karena itu dibuatlah sistem untuk memprediksi penghasilan karbon CO2 untuk mengukur berapa banyak kendaraan roda 4 mengeluarkan karbon dalam hitungan g/km.
 
 ### Problem Statements
 
 Menjelaskan pernyataan masalah latar belakang:
-- Dari banyaknya fitur, fitur apa yang memiliki pengaruh pada penghasilan CO2 emission?
-- Berapa banyak CO2 emission yang dihasilkan pada fitur yang berpengaruh dengan CO2 emission?
+- Dari banyaknya fitur, fitur apa yang memiliki pengaruh pada penghasilan CO2 *emission*?
+- Berapa banyak CO2 *emission* yang dihasilkan pada fitur yang berpengaruh dengan CO2 *emission*?
 
 ### Goals
 
 Menjelaskan tujuan dari pernyataan masalah:
-- Mengetahui fitur yang berkorelasi dengan CO2 emission.
-- Membuat model machine learning yang dapat memprediksi CO2 emission.
+- Mengetahui fitur yang berkorelasi dengan CO2 *emission*.
+- Membuat model machine learning yang dapat memprediksi CO2 *emission*.
 
     ### Solution statements
     - Menggunakan 5 algoritma berbeda untuk menentukan hasil prediki terbaik yaitu Linear Regressor, Decision Tree Regressor, K-Nearest Neighbor, Random Forest Regressor, dan Ada Boosting.
@@ -31,7 +31,7 @@ Menjelaskan tujuan dari pernyataan masalah:
 ## Data Understanding
 Dataset : [CO2 Emission by Vehicles](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles).
 
-### Variabel-variabel pada CO2 Emission by Vehicles dataset adalah sebagai berikut:
+### Variabel-variabel pada CO2 *Emission by Vehicles* dataset adalah sebagai berikut:
 *   Make : Perusahaan yang membuat kendaraan
 *   Model : Model dari kendaraan
 *   Vehicle Class : Kelas dari kendaraan berdasarkan utilitas, kapasitas dan berat 
