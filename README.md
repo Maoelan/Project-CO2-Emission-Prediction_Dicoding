@@ -7,19 +7,10 @@ CO2/Carbon emissions atau emisi karbon merupakan proses karbon dioksida ke atmos
 - Mengapa dan bagaimana masalah ini harus diselesaikan?
   
   Dari pelepas senyawa karbon CO2 ke lapisan atmosfer bumi akan memberikan dampat pada lingkungan, kesehatan, dan ekonomi. Yang cukup terlihat sekarang yaitu pada   lingkungan seperti ada peningkatan suhu bumi pertahun yang berakibat salju dikutub dan cangkupan glesternya akan berkurang dan menyebabkan peningkatan permukaan air laut sehingga masalah ini harus diselesaikan untuk mencegah hal tersebut terjadi dalam jangka dekat.
-- Menyertakan hasil riset terkait atau referensi dari masalah ini!
-
-  [Irreversible climate change due to carbon dioxide emissions](https://www.pnas.org/doi/full/10.1073/pnas.0812721106) 
-
-  [Climate Change: Atmospheric Carbon Dioxide](https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide) 
-
-  [CO2, the greenhouse effect and global warming: from the pioneering work of Arrhenius and Callendar to today’s Earth System Models](https://reader.elsevier.com/reader/sd/pii/S0160932716300308?token=926B8C03B6AF557DFA13E43DFAE380301F452C9AE0BD0ACA7B7345D65C02F0CE8AAC54E8BBC1904F448064BE28D0BBFD&originRegion=eu-west-1&originCreation=20230327151603) 
 
 ## Business Understanding
 
 CO2 Emission atau emisi karbon merupakan proses pelepasan karbon ke atmosfer. Jenis senyawa karbon merupakan hasil pembakaran yang perlu dibuang. Pada saat ini kebanyak penghasil emisi karbon merupakan kendaraan sehari-hari yang menghasilkan karbon dari pembakaran bahan bakar yang dilepaskan begitu saja ke atmosfer bumi. Bayangkan berapa banyak karbon yang dilepaskan dalam sehari oleh kendaraan. Kendaraan roda 4 menghasilkan rata-rata 200g/km karbon CO2. Itu dalam hitungan km, bagaimana dengan penggunaan kendaraan roda 4 dalam sehari? ditambah seluruh penduduk bumi sekarang tidak terlepas dari kendaraan. Oleh karena itu dibuatlah sistem untuk memprediksi penghasilan karbon CO2 untuk mengukur berapa banyak kendaraan roda 4 mengeluarkan karbon dalam hitungan g/km.
-
-Bagian laporan ini mencakup:
 
 ### Problem Statements
 
@@ -31,7 +22,6 @@ Menjelaskan pernyataan masalah latar belakang:
 
 Menjelaskan tujuan dari pernyataan masalah:
 - Mengetahui fitur yang berkorelasi dengan CO2 emission.
-- Dapat memvisualisasikan hubungan antara fitur yang berkaitan dengan CO2 emission. 
 - Membuat model machine learning yang dapat memprediksi CO2 emission.
 
     ### Solution statements
@@ -89,7 +79,7 @@ Teknik Data preparation yang dilakukan terdiri dari:
 - Setelah diketahui ketiga fitur tersebut berkorelasi dilakukan reduksi dimensi dengan PCA, membuat fitur baru yaitu Fuel Consumption untuk menggantikan ketiga fitur tersebut.
 - Kemudian melakukan train-test-split, data train dan test dibagi menjadi rasio 80:20.
 
-**Mengapa perlu dilakuakan data prepration?** 
+**Mengapa perlu dilakukan data prepration?** 
 - Perlu dilakukan proses encoding pada data categorical adalah agar data dapat diproses oleh model, karena model lebih dapat memproses data bertipe numerik.
 - Diperlukannya reduksi dimensi adalah agar menyederhanakan model dan mencegah terjadinya overfitting
 - Perlu dilakukan train-test-split agar hasil prediksi dapat lebih akurat pada data baru
@@ -159,3 +149,9 @@ formula Mean Squared Error : (1/n) * Σ(actual – forecast)2
 
 Cara kerjanya adalah dengan melakukan pengurangan nilai data aktual dengan nilai prediksi dan hasilnya akan dikuadratkan dan dijumlahkan secara keseluruhan kemudian dibagi dengan banyak data yang ada.
 
+REFERENSI :
+  [Irreversible climate change due to carbon dioxide emissions](https://www.pnas.org/doi/full/10.1073/pnas.0812721106) 
+
+  [Climate Change: Atmospheric Carbon Dioxide](https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide) 
+
+  [CO2, the greenhouse effect and global warming: from the pioneering work of Arrhenius and Callendar to today’s Earth System Models](https://reader.elsevier.com/reader/sd/pii/S0160932716300308?token=926B8C03B6AF557DFA13E43DFAE380301F452C9AE0BD0ACA7B7345D65C02F0CE8AAC54E8BBC1904F448064BE28D0BBFD&originRegion=eu-west-1&originCreation=20230327151603) 
