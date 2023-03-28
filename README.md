@@ -5,14 +5,8 @@
 ![image](https://user-images.githubusercontent.com/58927608/228171528-d61cf498-1ff7-4206-8caa-9d53f7f98fa5.png)
 
 CO2 *emissions* atau emisi karbon merupakan proses karbon dioksida ke atmosfer yang terjadi secara alami maupun dipicu aktivitas manusia, seperti deforestasi, konsumsi listrik, hingga kegiatan industri manufaktur. Senyawa ini adalah salah satu hasil dari pembakaran yang perlu dibuang. Gas buang berupa karbondioksida ini merupakan emisi yang kebanyakan saat ini dihasilkan kendaraan yang perlu diujikan dalam proses uji emisi. C02 *emission* ini sangat berpengaruh terhadap percepatan pemanasan global.
-
-- Mengapa dan bagaimana masalah ini harus diselesaikan?
   
-  Pelepas senyawa karbon CO2 ke lapisan atmosfer bumi akan memberikan dampat pada lingkungan, kesehatan, dan ekonomi, yang cukup terlihat sekarang yaitu pada lingkungan seperti ada peningkatan suhu bumi pertahun yang berakibat salju dikutub dan cangkupan glesternya akan berkurang dan menyebabkan peningkatan permukaan air laut sehingga masalah ini harus diselesaikan untuk mencegah hal tersebut terjadi dalam jangka dekat.
-  
-- Hasil Riset Terkait : 
-   - [CO2 emission sources, greenhouse gases, and the global warming effect](https://www.researchgate.net/profile/Kelvin-Yoro/publication/343508726_CO2_emission_sources_greenhouse_gases_and_the_global_warming_effect/links/5f44aa2692851cd30227cffd/CO2-emission-sources-greenhouse-gases-and-the-global-warming-effect.pdf)
-   - [Evaluating the potential impact of global warming on the UAE residential buildings–A contribution to reduce the CO2 emissions](https://d1wqtxts1xzle7.cloudfront.net/83972358/j.buildenv.2009.04.00620220412-1-1hp1tf-libre.pdf?1649794475=&response-content-disposition=inline%3B+filename%3DEvaluating_the_potential_impact_of_globa.pdf&Expires=1679989093&Signature=UfA03vy6IFVY-RuXxGeBXztbCv9CfTcyNeI3RJB~FvJk-GMBgY31spiFZhCKS1TQGTSUaY0pi3S9YfcxxvPn8JKBJh2H6UCwGwRarfx7FXVww0ERWViCrHgn4ioRQ4Z-~Lx07x36mx6xiC0QZfb5hCdWbBDFmPcNVRN5p9hIqlIEGKfCqm-OLoFi1w80uSWdAe4wX1mpjrs7gEgxLzYqI~IpyA0-Q-M7i6VaEDsCiNi6R7JWVGHUl0ME~5rKo9uGuHN7C-c6-e0LxGHAAUK3bIWsVdL~cH9agZPgNgT7WA5DHjz~CyF~ivFIuOL4GKfQCy-aNe-RsLCuu0iCKbjMvA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
+Pelepas senyawa karbon CO2 ke lapisan atmosfer bumi akan memberikan dampat pada lingkungan, kesehatan, dan ekonomi, yang cukup terlihat sekarang yaitu pada lingkungan seperti ada peningkatan suhu bumi pertahun yang berakibat salju dikutub dan cangkupan glesternya akan berkurang dan menyebabkan peningkatan permukaan air laut sehingga masalah ini harus diselesaikan untuk mencegah hal tersebut terjadi dalam jangka dekat.
 
 ## Business Understanding
 
@@ -36,6 +30,16 @@ Menjelaskan tujuan dari pernyataan masalah:
 
 ## Data Understanding
 Dataset : [CO2 Emission by Vehicles](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles).
+
+**Overview**
+
+Nama dataset : CO2 Emission by Vehicles
+Format dataset : CSV
+Jumlah kolom : 12
+Jumlah data : 7385
+
+Informasi lain :
+   - Dataset ini merupakan penelitian detail tentang bagaiman emisi CO2 yang dihasilkan oleh kendaraan dengan fitur yang berbeda. Dataset ini diambil dari website open data pemerintah Canada yang mencangkup data selama periode 7 tahun.
 
 ### Variabel-variabel pada CO2 *Emission by Vehicles* dataset adalah sebagai berikut:
 *   Make : Perusahaan yang membuat kendaraan
@@ -71,7 +75,16 @@ Dataset : [CO2 Emission by Vehicles](https://www.kaggle.com/datasets/debajyotipo
 **Missing Value & Outlier** 
 - Mengecek missing value dan data yang dianggap memiliki kejanggalan.
 
-  ![image](https://user-images.githubusercontent.com/58927608/228167046-139fe7b0-4c50-4db8-a6dc-4d2632b7b5da.png)
+|       | Engine Size(L) |  Cylinders  | Fuel Consumption City (L/100 km) | Fuel Consumption Hwy (L/100 km) | Fuel Consumption Comb (L/100 km) | Fuel Consumption Comb (mpg) | CO2 Emissions(g/km) |
+|:-----:|:--------------:|:-----------:|:--------------------------------:|:-------------------------------:|:--------------------------------:|:---------------------------:|:-------------------:|
+| count |   7385.000000  | 7385.000000 |            7385.000000           |           7385.000000           |            7385.000000           |         7385.000000         |     7385.000000     |
+|  mean |    3.160068    |   5.615030  |             12.556534            |             9.041706            |             10.975071            |          27.481652          |      250.584699     |
+|  std  |    1.354170    |   1.828307  |             3.500274             |             2.224456            |             2.892506             |           7.231879          |      58.512679      |
+|  min  |    0.900000    |   3.000000  |             4.200000             |             4.000000            |             4.100000             |          11.000000          |      96.000000      |
+|  25%  |    2.000000    |   4.000000  |             10.100000            |             7.500000            |             8.900000             |          22.000000          |      208.000000     |
+|  50%  |    3.000000    |   6.000000  |             12.100000            |             8.700000            |             10.600000            |          27.000000          |      246.000000     |
+|  75%  |    3.700000    |   6.000000  |             14.600000            |            10.200000            |             12.600000            |          32.000000          |      288.000000     |
+|  max  |    8.400000    |  16.000000  |             30.600000            |            20.600000            |             26.100000            |          69.000000          |      522.000000     |
 
 - Dari tabel diatas, dapat dikatakan tidak memiliki missing value tetapi pada data terlihat apabila data memiliki kejanggalan pada kuartil ketiga dengan nilai maksimum dan diduga kalau data ini merupakan outlier.
 - Melakukan visualisasi data dengan boxplot pada tipa numerik untuk mengecek apakah data tersebut merupakan outlier atau tidak dan didapatkan hasil kalau data tersebut merupakan data outlier.
@@ -204,7 +217,16 @@ Teknik Data preparation yang dilakukan terdiri dari:
 **Standarisasi**
 - Melakukan standarisasi dengan MinMaxScaler.
 
-  ![image](https://user-images.githubusercontent.com/58927608/228167445-14534d4b-7340-49d2-abe3-2404484597ef.png)
+  |       | Engine Size(L) | Cylinders | Transmission | Fuel Consumption Comb (mpg) |
+  |:-----:|:--------------:|:---------:|:------------:|:---------------------------:|
+  | count |    5460.0000   | 5460.0000 |   5460.0000  |          5460.0000          |
+  |  mean |     0.3990     |   0.4785  |    0.5498    |            0.3786           |
+  |  std  |     0.2274     |   0.3016  |    0.2776    |            0.1943           |
+  |  min  |     0.0000     |   0.0000  |    0.0000    |            0.0000           |
+  |  25%  |     0.2075     |   0.2000  |    0.3077    |            0.2258           |
+  |  50%  |     0.3962     |   0.6000  |    0.5769    |            0.3548           |
+  |  75%  |     0.5094     |   0.6000  |    0.6923    |            0.5161           |
+  |  max  |     1.0000     |   1.0000  |    1.0000    |            1.0000           |
 
 - Dari tabel diatas terlihat bahwa min dari data yaitu 0 dan max dari data yaitu 1, karena standarisasi MinMaxScaler menghasilkan distribusi data yang ada pada rentang 0 dan 1.
 
@@ -265,11 +287,13 @@ Model machine learning yang digunakan untuk masalah ini terdiri dari 5 model yai
     
     ![image](https://user-images.githubusercontent.com/58927608/228170034-f17c1ff9-5164-4751-80af-c1f6226b6a75.png)
     
-    - RandomForestRegressor | train 0.002074 | test 0.009687
-    - DecisionTreeRegressor | train 0.004165 | test 0.010623
-    - K-Nearest Neighbor    | train 0.007251 | test 0.011366
-    - LinearRegressor       | train 0.013481 | test 0.014259
-    - Adaptive Boosting     | train 0.080138 | test 0.078409
+    |                       |    train |     test |
+    |:---------------------:|---------:|---------:|
+    |       LinearRegressor | 0.013481 | 0.014259 |
+    | DecisionTreeRegressor | 0.004165 | 0.010623 |
+    |                   KNN | 0.007251 | 0.011366 |
+    |          RandomForest | 0.002074 | 0.009687 |
+    |              Boosting | 0.080138 | 0.078409 |
   
   Dapat disimpulkan dari hasil diatas RandomForestRegressor merupakan paling akurat memprediksi data dengan selisih   
   error terkecil dibandingkan dengan model lainnya dan Adaptive Boosting memiliki error yang paling tinggi diantara 
@@ -293,3 +317,7 @@ REFERENSI :
   [Climate Change: Atmospheric Carbon Dioxide](https://www.climate.gov/news-features/understanding-climate/climate-change-atmospheric-carbon-dioxide) 
 
   [CO2, the greenhouse effect and global warming: from the pioneering work of Arrhenius and Callendar to today’s Earth System Models](https://reader.elsevier.com/reader/sd/pii/S0160932716300308?token=926B8C03B6AF557DFA13E43DFAE380301F452C9AE0BD0ACA7B7345D65C02F0CE8AAC54E8BBC1904F448064BE28D0BBFD&originRegion=eu-west-1&originCreation=20230327151603) 
+  
+  [CO2 emission sources, greenhouse gases, and the global warming effect](https://www.researchgate.net/profile/Kelvin-Yoro/publication/343508726_CO2_emission_sources_greenhouse_gases_and_the_global_warming_effect/links/5f44aa2692851cd30227cffd/CO2-emission-sources-greenhouse-gases-and-the-global-warming-effect.pdf)
+  
+  [Evaluating the potential impact of global warming on the UAE residential buildings–A contribution to reduce the CO2 emissions](https://d1wqtxts1xzle7.cloudfront.net/83972358/j.buildenv.2009.04.00620220412-1-1hp1tf-libre.pdf?1649794475=&response-content-disposition=inline%3B+filename%3DEvaluating_the_potential_impact_of_globa.pdf&Expires=1679989093&Signature=UfA03vy6IFVY-RuXxGeBXztbCv9CfTcyNeI3RJB~FvJk-GMBgY31spiFZhCKS1TQGTSUaY0pi3S9YfcxxvPn8JKBJh2H6UCwGwRarfx7FXVww0ERWViCrHgn4ioRQ4Z-~Lx07x36mx6xiC0QZfb5hCdWbBDFmPcNVRN5p9hIqlIEGKfCqm-OLoFi1w80uSWdAe4wX1mpjrs7gEgxLzYqI~IpyA0-Q-M7i6VaEDsCiNi6R7JWVGHUl0ME~5rKo9uGuHN7C-c6-e0LxGHAAUK3bIWsVdL~cH9agZPgNgT7WA5DHjz~CyF~ivFIuOL4GKfQCy-aNe-RsLCuu0iCKbjMvA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA)
