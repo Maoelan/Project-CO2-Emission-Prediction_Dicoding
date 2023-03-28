@@ -41,7 +41,7 @@ Dataset : [CO2 Emission by Vehicles](https://www.kaggle.com/datasets/debajyotipo
 Informasi lain :
    - Dataset ini merupakan penelitian detail tentang bagaiman emisi CO2 yang dihasilkan oleh kendaraan dengan fitur yang berbeda. Dataset ini diambil dari website open data pemerintah Canada yang mencangkup data selama periode 7 tahun.
 
-### Variabel-variabel pada CO2 *Emission by Vehicles* dataset adalah sebagai berikut:
+### Variabel-variabel pada CO2 Emission by Vehicles dataset adalah sebagai berikut:
 *   Make : Perusahaan yang membuat kendaraan
 *   Model : Model dari kendaraan
 *   Vehicle Class : Kelas dari kendaraan berdasarkan utilitas, kapasitas dan berat 
