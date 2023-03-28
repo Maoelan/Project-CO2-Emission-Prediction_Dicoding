@@ -33,10 +33,10 @@ Dataset : [CO2 Emission by Vehicles](https://www.kaggle.com/datasets/debajyotipo
 
 **Overview**
 
-Nama dataset : CO2 Emission by Vehicles
-Format dataset : CSV
-Jumlah kolom : 12
-Jumlah data : 7385
+- Nama dataset : CO2 Emission by Vehicles
+- Format dataset : CSV
+- Jumlah kolom : 12
+- Jumlah data : 7385
 
 Informasi lain :
    - Dataset ini merupakan penelitian detail tentang bagaiman emisi CO2 yang dihasilkan oleh kendaraan dengan fitur yang berbeda. Dataset ini diambil dari website open data pemerintah Canada yang mencangkup data selama periode 7 tahun.
